@@ -60,8 +60,8 @@
 //multiplier using loop for
 
 let multiplier = 8;
-for (var i = 0; i <= 10; i++) {
-    var result = multiplier * i;
+for (let i = 0; i <= 10; i++) {
+    let result = multiplier * i;
     console.log(multiplier + ' * ' + i + ' = ' + result);
 }
 
